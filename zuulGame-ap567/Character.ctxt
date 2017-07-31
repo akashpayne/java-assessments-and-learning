@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=description\ characterStrength
+comment0.target=Character(java.lang.String,\ int)
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ Character\r\n\ Create\ an\ Character\ described\ by\ "description"\r\n
+comment1.params=
+comment1.target=java.lang.String\ toString()
+comment1.text=\r\n\ Return\ a\ long\ description\ of\ the\ item\ that\ includes\ the\ description\ \r\n
+comment2.params=description
+comment2.target=java.lang.String\ fromString(java.lang.String)
+comment2.text=\r\n\ lists\ all\ items\ in\ the\ games\ inventory.\r\n
+comment3.params=
+comment3.target=java.lang.String\ getCharacterDescription()
+comment3.text=\r\n\ Return\ a\ long\ description\ of\ the\ item\ that\ includes\ the\ description\ \r\n
+comment4.params=
+comment4.target=int\ getCharacterStrength()
+comment4.text=\r\n\ Return\ strength\ of\ character\r\n
+comment5.params=
+comment5.target=Room\ getRoom()
+comment5.text=\r\n\ gets\ the\ current\ room\ the\ monster\ is\ in\r\n
+numComments=6

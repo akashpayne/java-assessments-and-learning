@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=vertex
+comment0.target=int\ getNum(String)
+comment1.params=n
+comment1.target=String\ getV(int)
+comment2.target=int\ order()
+comment3.params=order
+comment3.target=VertexGenerator(int)
+comment4.target=void\ fill()
+numComments=5

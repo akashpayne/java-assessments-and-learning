@@ -1,0 +1,56 @@
+package shapes;
+
+import static org.junit.Assert.*;
+
+import org.junit.Before;
+import org.junit.Test;
+
+public class CircleTest {
+	private static final double DELTA = 1e-15;
+	
+	private Circle c1, c2, c3; 
+	
+	@Before
+	public void setUp() throws Exception {
+		c1 = new Circle(0);
+		c2 = new Circle(1);
+		c3 = new Circle(123);
+	}
+	
+	@Test
+	public void testCircumference() {
+		assertTrue(c1.circumference() > -DELTA);
+		assertEquals(0,c1.circumference(), DELTA);
+		assertTrue(c2.circumference() > -DELTA);
+		assertEquals(2 * Math.PI, c2.circumference(), DELTA);
+		assertTrue(c3.circumference() > -DELTA);
+		assertEquals(246 * Math.PI, c3.circumference(), DELTA);
+	}
+	
+	@Test
+	public void testArea() {
+		assertTrue(c1.area() > -DELTA);
+		assertEquals(0, c1.area(), DELTA);
+		assertTrue(c2.area() > -DELTA);
+		assertEquals(Math.PI, c2.area(), DELTA);
+		assertTrue(c3.area() > -DELTA);
+		assertEquals(15129 * Math.PI, c3.area(), DELTA);
+	}
+	
+	@Test
+	public void testGetRadius() {
+		assertEquals(0, c1.getRadius(), DELTA);
+		assertEquals(1, c2.getRadius(), DELTA);
+		assertEquals(123, c3.getRadius(), DELTA);
+	}
+	
+	@Test
+	public void testSetRadius() {
+		c1.setRadius(0);
+		assertEquals(0, c1.getRadius(), DELTA);
+		c2.setRadius(1);
+		assertEquals(1, c2.getRadius(), DELTA);
+		c3.setRadius(123.5);
+		assertEquals(123.5, c3.getRadius(), DELTA);
+	}
+}

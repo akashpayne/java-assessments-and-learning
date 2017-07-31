@@ -1,0 +1,38 @@
+    try{
+        WrongInversionException();
+    catch (Exception e) {
+    }
+	
+	
+	    /**
+     * 
+     */
+    public int[] inversionGeneratorA(int length, int inversions) throws WrongInversionException
+    {
+        //Exceptions for the number of Inversions: throw an exception message if caught. 
+        //Checks if there are too few Inversions, i.e. none or null
+        if( inversions < 0 )
+        {
+            throw new TooFewInversionsException();
+        }
+        //Checks if there are too many inversions (i.e. more than (l*(l-1/2), where l is length))
+        else if ( inversions > (length * (length - 1) / 2) )
+        {
+            throw new TooManyInversionsException();
+        }
+        //Generates a random ArrayList, arrayRandom and initialises random values 
+        ArrayList<Integer> arrayRandom = new ArrayList<Integer>(length);
+        Random rand = new Random(); 
+        rand.setSeed(System.currentTimeMillis());
+        for (int i = 0; i < length; i++)
+        {
+            Integer r = rand.nextInt(256);
+            arrayRandom.add(r);
+        }
+        // Shuffle the Array List
+        Collections.shuffle(arrayRandom);
+        // Convert Array List to Array 
+        //int[] arrayShuffled = ArrayUtils.toPrimitive(arrayRandom.toArray(new int[arrayRandom.size()]));
+        //return arrayShuffled
+        return arrayRandom; 
+    }

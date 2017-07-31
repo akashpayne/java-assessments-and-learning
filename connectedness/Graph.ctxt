@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.params=vg
+comment0.target=Graph(VertexGenerator)
+comment0.text=\nConstructor\ for\ objects\ of\ class\ Graph\n\n
+comment1.params=a\ b
+comment1.target=void\ addEdge(int,\ int)
+comment2.params=a
+comment2.target=int\ root(int)
+comment3.params=a\ b
+comment3.target=void\ union(int,\ int)
+comment4.params=n
+comment4.target=String\ vertexToString(int)
+comment5.params=filename
+comment5.target=void\ saveToFile(String)
+comment5.text=\nsave\ current\ graph\ to\ a\ file\n@param\ filename\ is\ the\ name\ of\ the\ target\ file\n@throws\ IOException\ if\ the\ target\ file\ cannot\ be\ created\n\n
+comment6.target=void\ makeEulerGraph()
+comment6.text=\nadd\ edges\ to\ the\ graph\ to\ make\ it\ an\ Euler\ graph\n\n
+comment7.params=numberofedges
+comment7.target=void\ randomEdges(int)
+comment7.text=\nadds\ random\ edges\ to\ the\ graph\n@param\ numberofedges\ the\ number\ of\ edges\ that\ need\ to\ be\ generated\ and\ added\ via\ the\ method\ addEdge\n\n
+comment8.target=int\ connectedComponents()
+comment8.text=\n@return\ the\ number\ of\ connected\ components\ of\ the\ graph\nthis\ can\ be\ repeatedly\ called\ as\ the\ graph\ is\ growing\ by\ edges\n\n
+comment9.params=graphOrder\ graphEdges
+comment9.target=double\ connectedAverage(int,\ int)
+comment9.text=\n@param\ graphOrder\ the\ number\ of\ vertices\ the\ random\ graphs\ should\ have\n@param\ graphEdges\ the\ number\ of\ edges\ they\ should\ have\n@return\ the\ average\ number\ of\ connected\ components\ of\ MAGICNUMBER\ many\ random\ graphs\ of\ that\ description\n\n
+numComments=10

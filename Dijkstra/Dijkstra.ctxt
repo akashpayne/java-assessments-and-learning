@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=graph
+comment0.target=Dijkstra(int[][])
+comment0.text=\r\n\ the\ constructor\ requires\ a\ reference\ to\ the\ adjaceny\ matrix,\ for\ the\ graph,\ as\ a\ parameter\r\n
+comment1.params=root
+comment1.target=int[]\ shortestPath(int)
+comment1.text=\r\n\ This\ is\ the\ method\ that\ you\ are\ to\ complete.\ It\ takes,\ as\ a\ paramter,\ the\ root\ of\ the\ SPT\r\n\ to\ be\ calculated.\ It\ returns\ an\ array\ containing\ the\ predecessors\ to\ each\ vertex\ in\ the\ tree.\r\n
+numComments=2

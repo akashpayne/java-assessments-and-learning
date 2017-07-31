@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=description\ characterStrength
+comment0.target=CharacterRegister(java.lang.String,\ int)
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ Character\r\n\ Create\ an\ character\ described\ "description"\r\n
+comment1.params=name\ description\ characterStrength
+comment1.target=void\ register(java.lang.String,\ java.lang.String,\ int)
+comment1.text=\r\n\ adds\ a\ new\ character\ to\ character\ register\r\n
+comment2.params=direction\ characterList
+comment2.target=void\ setCharacter(java.lang.String,\ CharacterRegister)
+comment2.text=\r\n\ Define\ an\ exit\ from\ this\ room.\r\n\ @param\ direction\ The\ direction\ of\ the\ exit.\r\n\ @param\ neighbor\ \ The\ room\ to\ which\ the\ exit\ leads.\r\n
+comment3.params=
+comment3.target=java.lang.String\ getCharacterDescription()
+comment3.text=\r\n\ Return\ a\ long\ description\ of\ the\ character\ that\ includes\ the\ description\ \r\n
+numComments=4

@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.params=numNodes\ gridSize\ seed
+comment0.target=MakeGraph(int,\ int,\ int)
+comment1.params=numNodes
+comment1.target=void\ setNumNodes(int)
+comment2.params=
+comment2.target=int\ getGridSize()
+comment3.params=
+comment3.target=void\ generate()
+comment4.params=
+comment4.target=boolean\ check()
+numComments=5

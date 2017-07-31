@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.params=capacity
+comment0.target=ArrayQueue(int)
+comment1.params=e
+comment1.target=boolean\ add(java.lang.Object)
+comment1.text=\r\n\ @param\ e\ is\ added\ to\ queue\ at\ the\ end\r\n\ @returns\ false\ if\ queue\ is\ already\ full\r\n
+comment2.params=
+comment2.target=boolean\ isFull()
+comment3.params=
+comment3.target=boolean\ isEmpty()
+comment4.params=
+comment4.target=int\ capacity()
+comment5.params=
+comment5.target=java.lang.Object\ poll()
+comment5.text=\r\n\ removes\ the\ head\ of\ the\ queue\ and\ returns\ it\r\n\ returns\ null\ if\ queue\ is\ empty\r\n
+numComments=6

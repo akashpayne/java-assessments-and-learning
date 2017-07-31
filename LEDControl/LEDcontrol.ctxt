@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.params=
+comment0.target=void\ detectPort()
+comment1.params=primaryStage
+comment1.target=void\ start(javafx.stage.Stage)
+comment2.params=observable\ oldVal\ newVal
+comment2.target=void\ changed(javafx.beans.value.ObservableValue,\ java.lang.String,\ java.lang.String)
+comment3.params=
+comment3.target=void\ updateLed()
+comment4.params=
+comment4.target=void\ requestMessage()
+comment5.params=
+comment5.target=java.lang.String\ floatString()
+comment6.params=port
+comment6.target=boolean\ connectmbed(java.lang.String)
+comment7.params=
+comment7.target=void\ disconnectmbed()
+comment8.params=
+comment8.target=void\ stop()
+comment9.params=args
+comment9.target=void\ main(java.lang.String[])
+numComments=10

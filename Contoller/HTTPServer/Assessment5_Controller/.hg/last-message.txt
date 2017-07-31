@@ -1,0 +1,1 @@
+With working ethernet and HTTP Server, that allows communication via RPC variables to reset the alarm. 

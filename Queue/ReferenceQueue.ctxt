@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=e
+comment0.target=boolean\ add(java.lang.Object)
+comment1.params=
+comment1.target=boolean\ isFull()
+comment2.params=
+comment2.target=boolean\ isEmpty()
+comment3.params=
+comment3.target=java.lang.Object\ poll()
+comment4.params=
+comment4.target=int\ capacity()
+comment5.params=capacity
+comment5.target=ReferenceQueue(int)
+numComments=6
