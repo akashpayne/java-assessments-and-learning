@@ -1,5 +1,5 @@
 import java.util.Arrays; 
-public class Exercise1 {
+public class solution {
 public static void main(String[] args){   
     
     int[] my_array1 = {
